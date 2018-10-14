@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		318371962171EC3D0049F813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371952171EC3D0049F813 /* AppDelegate.swift */; };
-		318371982171EC3D0049F813 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371972171EC3D0049F813 /* ViewController.swift */; };
+		318371982171EC3D0049F813 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371972171EC3D0049F813 /* MainViewController.swift */; };
 		3183719B2171EC3D0049F813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318371992171EC3D0049F813 /* Main.storyboard */; };
 		3183719D2171EC3E0049F813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3183719C2171EC3E0049F813 /* Assets.xcassets */; };
 		318371A02171EC3E0049F813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3183719E2171EC3E0049F813 /* LaunchScreen.storyboard */; };
+		318371A8217201D90049F813 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371A7217201D90049F813 /* SubViewController.swift */; };
+		318371AA217206CD0049F813 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 318371A9217206CD0049F813 /* apikey.plist */; };
+		318371AC217207B40049F813 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371AB217207B40049F813 /* ResultTableViewCell.swift */; };
+		318371AE2172083B0049F813 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371AD2172083B0049F813 /* ApiService.swift */; };
+		318371B0217208820049F813 /* FaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371AF217208820049F813 /* FaceData.swift */; };
+		318371B2217208D10049F813 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318371B1217208D10049F813 /* Extension.swift */; };
+		318371F021735BEE0049F813 /* RestKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318371EF21735BEE0049F813 /* RestKit.framework */; };
+		318371F221735BF30049F813 /* VisualRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318371F121735BF30049F813 /* VisualRecognition.framework */; };
+		7242AC31A94A1D49E94F9CBD /* Pods_WSFA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627F80A04C061FF9F520ACEB /* Pods_WSFA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291EA924FA411297D5173231 /* Pods-WSFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSFA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSFA/Pods-WSFA.debug.xcconfig"; sourceTree = "<group>"; };
 		318371922171EC3D0049F813 /* WSFA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSFA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318371952171EC3D0049F813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		318371972171EC3D0049F813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		318371972171EC3D0049F813 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3183719A2171EC3D0049F813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3183719C2171EC3E0049F813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3183719F2171EC3E0049F813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		318371A12171EC3E0049F813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318371A7217201D90049F813 /* SubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		318371A9217206CD0049F813 /* apikey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = apikey.plist; sourceTree = "<group>"; };
+		318371AB217207B40049F813 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		318371AD2172083B0049F813 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		318371AF217208820049F813 /* FaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceData.swift; sourceTree = "<group>"; };
+		318371B1217208D10049F813 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		318371EF21735BEE0049F813 /* RestKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RestKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		318371F121735BF30049F813 /* VisualRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = VisualRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627F80A04C061FF9F520ACEB /* Pods_WSFA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSFA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BBF060B2A5FA0D077D75F8 /* Pods-WSFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSFA.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSFA/Pods-WSFA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318371F221735BF30049F813 /* VisualRecognition.framework in Frameworks */,
+				318371F021735BEE0049F813 /* RestKit.framework in Frameworks */,
+				7242AC31A94A1D49E94F9CBD /* Pods_WSFA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13051A55ED85D31A9A9EB931 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				291EA924FA411297D5173231 /* Pods-WSFA.debug.xcconfig */,
+				62BBF060B2A5FA0D077D75F8 /* Pods-WSFA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		318371892171EC3D0049F813 = {
 			isa = PBXGroup;
 			children = (
 				318371942171EC3D0049F813 /* WSFA */,
 				318371932171EC3D0049F813 /* Products */,
+				13051A55ED85D31A9A9EB931 /* Pods */,
+				AC5D8257691ABCEE95E18D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +89,29 @@
 			isa = PBXGroup;
 			children = (
 				318371952171EC3D0049F813 /* AppDelegate.swift */,
-				318371972171EC3D0049F813 /* ViewController.swift */,
 				318371992171EC3D0049F813 /* Main.storyboard */,
+				318371972171EC3D0049F813 /* MainViewController.swift */,
+				318371A7217201D90049F813 /* SubViewController.swift */,
+				318371AB217207B40049F813 /* ResultTableViewCell.swift */,
+				318371AD2172083B0049F813 /* ApiService.swift */,
+				318371AF217208820049F813 /* FaceData.swift */,
+				318371B1217208D10049F813 /* Extension.swift */,
 				3183719C2171EC3E0049F813 /* Assets.xcassets */,
 				3183719E2171EC3E0049F813 /* LaunchScreen.storyboard */,
 				318371A12171EC3E0049F813 /* Info.plist */,
+				318371A9217206CD0049F813 /* apikey.plist */,
 			);
 			path = WSFA;
+			sourceTree = "<group>";
+		};
+		AC5D8257691ABCEE95E18D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318371F121735BF30049F813 /* VisualRecognition.framework */,
+				318371EF21735BEE0049F813 /* RestKit.framework */,
+				627F80A04C061FF9F520ACEB /* Pods_WSFA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 318371A42171EC3E0049F813 /* Build configuration list for PBXNativeTarget "WSFA" */;
 			buildPhases = (
+				00B44632BA3FBB10B6F2F656 /* [CP] Check Pods Manifest.lock */,
 				3183718E2171EC3D0049F813 /* Sources */,
 				3183718F2171EC3D0049F813 /* Frameworks */,
 				318371902171EC3D0049F813 /* Resources */,
+				F35FA7659AAB17AEEF933FD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				318371A02171EC3E0049F813 /* LaunchScreen.storyboard in Resources */,
+				318371AA217206CD0049F813 /* apikey.plist in Resources */,
 				3183719D2171EC3E0049F813 /* Assets.xcassets in Resources */,
 				3183719B2171EC3D0049F813 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +183,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B44632BA3FBB10B6F2F656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSFA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F35FA7659AAB17AEEF933FD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WSFA/Pods-WSFA-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonRestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMWatsonVisualRecognitionV3/VisualRecognition.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualRecognition.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSFA/Pods-WSFA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3183718E2171EC3D0049F813 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318371982171EC3D0049F813 /* ViewController.swift in Sources */,
+				318371A8217201D90049F813 /* SubViewController.swift in Sources */,
+				318371AE2172083B0049F813 /* ApiService.swift in Sources */,
+				318371B2217208D10049F813 /* Extension.swift in Sources */,
+				318371982171EC3D0049F813 /* MainViewController.swift in Sources */,
+				318371AC217207B40049F813 /* ResultTableViewCell.swift in Sources */,
+				318371B0217208820049F813 /* FaceData.swift in Sources */,
 				318371962171EC3D0049F813 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +377,7 @@
 		};
 		318371A52171EC3E0049F813 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291EA924FA411297D5173231 /* Pods-WSFA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,12 +390,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ST.WSFA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		318371A62171EC3E0049F813 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BBF060B2A5FA0D077D75F8 /* Pods-WSFA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ST.WSFA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
