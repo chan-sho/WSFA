@@ -34,19 +34,29 @@
                                     </imageView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Yla-gC-M8d" secondAttribute="trailing" id="IDi-8v-p2L"/>
+                                    <constraint firstAttribute="trailing" secondItem="q63-Qb-feK" secondAttribute="trailing" id="mk7-cw-ndx"/>
                                     <constraint firstAttribute="height" constant="300" id="uKa-21-owc"/>
                                 </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ver 1.0 (by Sho Takano)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3Q-Bo-w62">
+                                <rect key="frame" x="105" y="485" width="230" height="25.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BeY-BU-7cu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="1bI-BN-gYe"/>
                             <constraint firstItem="nPg-1K-3oo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Xn-gf-AV0"/>
+                            <constraint firstItem="l3Q-Bo-w62" firstAttribute="top" secondItem="BeY-BU-7cu" secondAttribute="bottom" constant="1" id="Ji5-cD-u2v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nPg-1K-3oo" secondAttribute="trailing" id="MU0-Tk-WPs"/>
                             <constraint firstItem="BeY-BU-7cu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fID-mK-64a"/>
                             <constraint firstItem="BeY-BU-7cu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iUm-VE-uDN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BeY-BU-7cu" secondAttribute="trailing" constant="40" id="khV-GF-8qn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nPg-1K-3oo" secondAttribute="bottom" id="nci-mQ-boF"/>
+                            <constraint firstItem="l3Q-Bo-w62" firstAttribute="trailing" secondItem="BeY-BU-7cu" secondAttribute="trailing" id="wq8-P3-oBe"/>
                             <constraint firstItem="nPg-1K-3oo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zf3-Yy-eRd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

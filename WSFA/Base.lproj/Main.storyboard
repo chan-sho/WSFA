@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--WSFA(Watson x Swift Face Analysis)-->
+        <!--Watson VR x Swift (by ST)-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="WSFA" customModuleProvider="target" sceneMemberID="viewController">
@@ -110,7 +110,7 @@ Tap "Face Analysis"</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="WSFA(Watson x Swift Face Analysis)" id="Vu8-Ol-gTC">
+                    <navigationItem key="navigationItem" title="Watson VR x Swift (by ST)" id="Vu8-Ol-gTC">
                         <barButtonItem key="backBarButtonItem" title="戻る" id="9Lz-g9-MMv"/>
                     </navigationItem>
                     <connections>
