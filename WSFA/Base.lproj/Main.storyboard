@@ -213,7 +213,16 @@ Tap "Face Analysis"</string>
                             <outlet property="delegate" destination="bh9-zx-HrT" id="a4f-9Z-aUm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="L3m-fd-zPt"/>
+                    <navigationItem key="navigationItem" id="L3m-fd-zPt">
+                        <barButtonItem key="rightBarButtonItem" title="【スクリーン保存】" id="vQP-ED-l1l">
+                            <connections>
+                                <action selector="StrageResults:" destination="bh9-zx-HrT" id="o5L-Jc-XRd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="StrageResults" destination="vQP-ED-l1l" id="Wbe-72-1KH"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iZd-H0-2Yz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

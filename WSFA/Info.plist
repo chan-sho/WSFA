@@ -31,6 +31,10 @@
 	<string>$(PRODUCT_NAME) を利用するには、カメラへのアクセスが必要です。許可しますか？</string>
 	<key>NSRemindersUsageDescription</key>
 	<string>$(PRODUCT_NAME) を利用するには、写真へのアクセスが必要です。許可しますか？</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) が写真ライブラリーにアクセスする事を許可しますか？</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>$(PRODUCT_NAME) が写真ライブラリーに画像を追加する事を許可しますか？</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

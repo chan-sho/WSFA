@@ -2,19 +2,23 @@ PODS:
   - IBMWatsonRestKit (1.2.0)
   - IBMWatsonVisualRecognitionV3 (0.35.0):
     - IBMWatsonRestKit (= 1.2.0)
+  - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - IBMWatsonVisualRecognitionV3 (~> 0.35.0)
+  - SVProgressHUD (= 2.2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - IBMWatsonRestKit
     - IBMWatsonVisualRecognitionV3
+    - SVProgressHUD
 
 SPEC CHECKSUMS:
   IBMWatsonRestKit: b05aa0aa912724accbf6ed9475654602886f0782
   IBMWatsonVisualRecognitionV3: ea6bfae0e9f06d26d940944a9872b0f56dc84e0e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 75f4539ee740626e14b3ffcb1be5ec757b220f5f
+PODFILE CHECKSUM: 0d7d37e5183237627755c0b1dced0ae86e4b7781
 
 COCOAPODS: 1.5.3
